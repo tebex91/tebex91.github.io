@@ -1,0 +1,487 @@
+/* line 1, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/style.scss */
+.wrapper {
+  width: 780px;
+  margin: 0 auto;
+  padding: 0 5px;
+  border: 1px solid #d3d0d0;
+}
+
+/* line 13, ../sass/style.scss */
+header .header-top {
+  display: flex;
+  font-family: Tahoma, sans-serif;
+}
+/* line 18, ../sass/style.scss */
+header .logo {
+  width: 249px;
+  height: 75px;
+  border-right: 1px dashed #fff;
+  background: #535353 url("../img/logo.png") no-repeat 55% 40%;
+}
+/* line 24, ../sass/style.scss */
+header .logo h1 {
+  visibility: hidden;
+}
+/* line 29, ../sass/style.scss */
+header .personal-settings {
+  display: flex;
+  height: 75px;
+  background: linear-gradient(45deg, #600000, #be1f1f);
+}
+/* line 34, ../sass/style.scss */
+header .personal-settings div {
+  height: 55px;
+  padding-top: 18px;
+  border-right: 1px dashed #b48d8d;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+/* line 44, ../sass/style.scss */
+header .personal-settings .cart {
+  width: 198px;
+  padding-right: 17px;
+  text-align: right;
+}
+/* line 49, ../sass/style.scss */
+header .personal-settings .cart .item-quantity {
+  font-size: 12px;
+}
+/* line 54, ../sass/style.scss */
+header .personal-settings .language {
+  width: 146px;
+  padding-left: 16px;
+}
+/* line 58, ../sass/style.scss */
+header .personal-settings .language li {
+  display: inline-block;
+}
+/* line 62, ../sass/style.scss */
+header .personal-settings .language img {
+  margin-top: 2px;
+  margin-right: 12px;
+}
+/* line 68, ../sass/style.scss */
+header .personal-settings .currency {
+  width: 179px;
+  padding-left: 20px;
+  border-right: none;
+}
+/* line 73, ../sass/style.scss */
+header .personal-settings .currency select {
+  width: 135px;
+  height: 16px;
+  padding-left: 5px;
+  font-size: 10px;
+}
+/* line 82, ../sass/style.scss */
+header .header-bottom {
+  display: flex;
+}
+/* line 85, ../sass/style.scss */
+header .header-bottom nav {
+  width: 245px;
+  padding: 20px 0 25px 42px;
+}
+/* line 89, ../sass/style.scss */
+header .header-bottom nav li {
+  padding: 5px 0 3px 0;
+  border-bottom: 1px dotted #ddd;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 14px;
+  color: #1f1f1f;
+}
+/* line 97, ../sass/style.scss */
+header .header-bottom nav a {
+  display: block;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+/* line 103, ../sass/style.scss */
+header .header-bottom nav a::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 13px;
+  background: url("../img/bullet.png") no-repeat;
+}
+/* line 112, ../sass/style.scss */
+header .header-bottom nav a:hover {
+  color: #a02c2d;
+}
+/* line 117, ../sass/style.scss */
+header .header-bottom .banner {
+  position: relative;
+  width: 522px;
+  padding: 28px 40px 0 0;
+  text-align: right;
+  font-family: 'Myriad Pro', sans-serif;
+}
+/* line 124, ../sass/style.scss */
+header .header-bottom .banner h2 {
+  font-size: 38px;
+  color: #9f0000;
+}
+/* line 128, ../sass/style.scss */
+header .header-bottom .banner h2 span {
+  font-style: italic;
+  color: #cbcbcb;
+}
+/* line 134, ../sass/style.scss */
+header .header-bottom .banner h3 {
+  margin: -5px 0 0 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #1f1f1f;
+  letter-spacing: 0.3px;
+}
+/* line 142, ../sass/style.scss */
+header .header-bottom .banner p {
+  display: inline-block;
+  position: relative;
+  margin-top: 22px;
+  margin-right: 20px;
+  padding: 6px 73px 4px 140px;
+  background: #efefef;
+  font-size: 14px;
+  text-align: left;
+  color: #1f1f1f;
+}
+/* line 153, ../sass/style.scss */
+header .header-bottom .banner p span {
+  text-transform: uppercase;
+  color: #9f0000;
+}
+/* line 158, ../sass/style.scss */
+header .header-bottom .banner p::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  right: -25px;
+  display: inline-block;
+  width: 87px;
+  height: 45px;
+  background: url("../img/arrow.png") no-repeat;
+}
+/* line 170, ../sass/style.scss */
+header .header-bottom .banner img {
+  position: absolute;
+  top: -28px;
+  left: -28px;
+  z-index: 10;
+}
+
+/* line 180, ../sass/style.scss */
+main {
+  display: flex;
+  flex-direction: row;
+}
+/* line 184, ../sass/style.scss */
+main .sidebar {
+  width: 244px;
+  padding-left: 35px;
+  border-right: 1px dashed #fff;
+}
+/* line 190, ../sass/style.scss */
+main .sidebar .category-menu h4 {
+  padding: 8px 0 5px 13px;
+  background: #cbcbcb;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+/* line 200, ../sass/style.scss */
+main .sidebar .category-menu ul {
+  padding: 8px 0 7px 8px;
+}
+/* line 204, ../sass/style.scss */
+main .sidebar .category-menu li {
+  padding: 5px 0 4px 0;
+  border-bottom: 1px dotted #ddd;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 12px;
+  color: #1f1f1f;
+}
+/* line 212, ../sass/style.scss */
+main .sidebar .category-menu a {
+  display: block;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+/* line 218, ../sass/style.scss */
+main .sidebar .category-menu a::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 0 13px 0 5px;
+  background: url("../img/small_arrow.png") no-repeat;
+}
+/* line 227, ../sass/style.scss */
+main .sidebar .category-menu a:hover {
+  color: #f10b26;
+}
+/* line 233, ../sass/style.scss */
+main .sidebar .moneyback a {
+  display: block;
+  height: 46px;
+}
+/* line 240, ../sass/style.scss */
+main .catalog {
+  padding: 9px 18px 17px 18px;
+  background: #1f1f1f;
+}
+/* line 244, ../sass/style.scss */
+main .catalog h4 {
+  margin-bottom: 10px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 252, ../sass/style.scss */
+main .catalog .product-list {
+  width: 486px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 258, ../sass/style.scss */
+main .catalog .product-list .product-item {
+  margin-bottom: 7px;
+  padding: 1px;
+  background: #fff;
+}
+/* line 263, ../sass/style.scss */
+main .catalog .product-list .product-item .box {
+  width: 238px;
+  height: 150px;
+  border: 1px solid #1f1f1f;
+}
+/* line 268, ../sass/style.scss */
+main .catalog .product-list .product-item .box .buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+/* line 273, ../sass/style.scss */
+main .catalog .product-list .product-item .box .buttons button {
+  height: 19px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.53);
+  text-transform: uppercase;
+}
+/* line 285, ../sass/style.scss */
+main .catalog .product-list .product-item .box .buttons button[name="details"] {
+  width: 78px;
+  background-image: url("../img/details_button.png");
+}
+/* line 290, ../sass/style.scss */
+main .catalog .product-list .product-item .box .buttons button[name="cart"] {
+  width: 101px;
+  background-image: url("../img/cart_button.png");
+}
+/* line 297, ../sass/style.scss */
+main .catalog .product-list .product-item .buy {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 20px 13px 17px;
+}
+/* line 302, ../sass/style.scss */
+main .catalog .product-list .product-item .buy .product {
+  display: flex;
+  height: 89px;
+  border-bottom: 2px dashed #cecece;
+}
+/* line 307, ../sass/style.scss */
+main .catalog .product-list .product-item .buy .product .image {
+  width: 105px;
+}
+/* line 311, ../sass/style.scss */
+main .catalog .product-list .product-item .buy .product .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 14px;
+}
+/* line 320, ../sass/style.scss */
+main .catalog .product-list .product-item .buy .product .info .price {
+  padding-bottom: 15px;
+  font-size: 14px;
+  color: #de0303;
+}
+/* line 329, ../sass/style.scss */
+main .catalog .product-list .product-item .new,
+main .catalog .product-list .product-item .sale {
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 334, ../sass/style.scss */
+main .catalog .product-list .product-item .new .info,
+main .catalog .product-list .product-item .sale .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 17px;
+}
+/* line 340, ../sass/style.scss */
+main .catalog .product-list .product-item .new .info button,
+main .catalog .product-list .product-item .sale .info button {
+  width: 78px;
+  height: 19px;
+  background-image: url("../img/details_button.png");
+  border: none;
+  outline: none;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.53);
+  text-transform: uppercase;
+}
+/* line 355, ../sass/style.scss */
+main .catalog .product-list .product-item .new {
+  padding-top: 3px;
+  background: url("../img/new.png") no-repeat -25px 0, linear-gradient(135deg, rgba(255, 255, 255, 0.79) 70%, rgba(255, 255, 255, 0.79) 72%, rgba(237, 219, 219, 0.79) 77%, rgba(197, 139, 139, 0.79) 88%, #9a3434 100%);
+}
+/* line 364, ../sass/style.scss */
+main .catalog .product-list .product-item .new .description {
+  padding-right: 10px;
+  text-align: right;
+}
+/* line 368, ../sass/style.scss */
+main .catalog .product-list .product-item .new .description h5 {
+  padding-right: 6px;
+}
+/* line 372, ../sass/style.scss */
+main .catalog .product-list .product-item .new .description .red {
+  font-family: Avian, sans-serif;
+  font-size: 19px;
+  color: #de0303;
+  text-transform: uppercase;
+  line-height: 10px;
+}
+/* line 380, ../sass/style.scss */
+main .catalog .product-list .product-item .new .description .gray {
+  font-family: Avian, sans-serif;
+  font-size: 10px;
+  color: #8d8888;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+/* line 389, ../sass/style.scss */
+main .catalog .product-list .product-item .new button {
+  margin-left: 13px;
+  background-color: #c99393;
+}
+/* line 395, ../sass/style.scss */
+main .catalog .product-list .product-item .sale {
+  background: url("../img/sale.png") no-repeat -60px 0, linear-gradient(45deg, rgba(255, 255, 255, 0.79) 70%, rgba(255, 255, 255, 0.79) 72%, rgba(233, 233, 233, 0.79) 77%, rgba(186, 186, 186, 0.79) 88%, #868686 100%);
+}
+/* line 403, ../sass/style.scss */
+main .catalog .product-list .product-item .sale .description {
+  padding-top: 5px;
+  padding-right: 14px;
+  text-align: right;
+}
+/* line 408, ../sass/style.scss */
+main .catalog .product-list .product-item .sale .description .red {
+  font-family: Avian, sans-serif;
+  font-size: 12px;
+  color: #de0303;
+  text-transform: uppercase;
+  line-height: 8px;
+}
+/* line 416, ../sass/style.scss */
+main .catalog .product-list .product-item .sale .description .gray {
+  font-family: Avian, sans-serif;
+  font-size: 10px;
+  color: #8d8888;
+  text-transform: uppercase;
+  line-height: 14px;
+}
+/* line 425, ../sass/style.scss */
+main .catalog .product-list .product-item .sale button {
+  margin-left: 23px;
+  background-color: #fff;
+}
+/* line 431, ../sass/style.scss */
+main .catalog .product-list .product-item .new h5,
+main .catalog .product-list .product-item .sale h5 {
+  font-family: 'Helvetica Neue LT Pro', sans-serif;
+  font-size: 41px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #de0303 25%, #2c0f0f 55%, #89081f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #de0303;
+  text-shadow: 0px 5px 2px rgba(137, 8, 31, 0.3);
+}
+
+/* line 447, ../sass/style.scss */
+footer {
+  display: flex;
+  background: linear-gradient(180deg, white 1%, white 14%, #9b9b9b 100%);
+}
+/* line 453, ../sass/style.scss */
+footer .payment-cards {
+  width: 249px;
+  padding: 20px 24px 18px 50px;
+  border-right: 1px dashed #fff;
+}
+/* line 458, ../sass/style.scss */
+footer .payment-cards ul {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 464, ../sass/style.scss */
+footer .menu {
+  padding: 20px 25px;
+  font-family: Tahoma, sans-serif;
+}
+/* line 468, ../sass/style.scss */
+footer .menu ul {
+  display: flex;
+}
+/* line 471, ../sass/style.scss */
+footer .menu ul li {
+  border-right: 1px solid #000;
+}
+/* line 475, ../sass/style.scss */
+footer .menu ul li:last-child {
+  border-right: none;
+}
+/* line 479, ../sass/style.scss */
+footer .menu ul a {
+  display: block;
+  padding: 0 5px;
+  font-size: 10px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 488, ../sass/style.scss */
+footer .menu ul a:hover {
+  text-decoration: underline;
+}
+/* line 493, ../sass/style.scss */
+footer .menu p {
+  padding: 5px;
+  font-size: 10px;
+}
